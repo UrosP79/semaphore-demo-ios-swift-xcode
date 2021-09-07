@@ -62,7 +62,7 @@ blocks:
           commands:
             - checkout
             - make rspec
-          parallelism: 10
+          parallelism: 9
     dependencies:
       - Install deps
       - Static Analysis
